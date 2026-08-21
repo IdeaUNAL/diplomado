@@ -38,12 +38,12 @@ h2{margin:0 0 14px;font-weight:800;font-size:22px;color:var(--CR);letter-spacing
 .obj-list{margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
 .obj-list li{list-style:none;display:flex;gap:12px;font-size:14px;line-height:1.55}
 .obj-list .n{flex:none;width:26px;height:26px;border-radius:999px;background:var(--T);color:var(--CR);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
-.modulo{position:relative;margin-top:34px;padding-top:24px}
+.modulo{position:relative;margin-top:34px}
 .modulo:first-child{margin-top:0}
-.mod-pill{position:absolute;top:0;left:22px;z-index:2;background:var(--T);border-radius:999px;padding:11px 22px;display:flex;align-items:baseline;gap:10px;max-width:calc(100% - 60px)}
+.mod-pill{position:relative;z-index:2;margin:0 22px -20px;background:var(--T);border-radius:28px;padding:12px 22px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 10px;width:fit-content;max-width:calc(100% - 44px)}
 .mod-num{font-weight:800;font-size:13px;color:var(--C);flex:none}
-.mod-title{font-weight:700;font-size:14.5px;color:var(--CR);line-height:1.25}
-.mod-body{background:var(--C);border:2px solid var(--SA);border-radius:32px;padding:44px 26px 20px}
+.mod-title{font-weight:700;font-size:14.5px;color:var(--CR);line-height:1.3}
+.mod-body{background:var(--C);border:2px solid var(--SA);border-radius:32px;padding:36px 26px 20px}
 .sesion{display:flex;align-items:baseline;gap:14px;padding:10px 0;border-top:1.5px solid var(--SA)}
 .sesion:first-child{border-top:none}
 .s-num{flex:none;width:22px;font-weight:800;font-size:13px;color:var(--L)}
@@ -61,7 +61,7 @@ h2{margin:0 0 14px;font-weight:800;font-size:22px;color:var(--CR);letter-spacing
 footer{margin-top:52px;background:var(--H);border-radius:0 0 44px 44px;margin-left:-28px;margin-right:-28px;padding:16px 30px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 footer .cr{font-style:italic;font-size:13px;color:var(--T);line-height:1.4}
 footer img{height:44px}
-@media(max-width:640px){body{padding:16px}.frame{inset:8px}.info-grid{grid-template-columns:1fr}}
+@media(max-width:640px){body{padding:16px}.frame{inset:8px}.info-grid{grid-template-columns:1fr}.mod-pill{margin:0 12px -18px;padding:10px 16px}.mod-body{padding:34px 16px 16px}.sesion{flex-wrap:wrap}.s-horas{margin-left:36px}}
 </style></head>
 <body>
 <div class="frame"></div>
@@ -131,7 +131,7 @@ footer img{height:44px}
         <span class="s-meta">sábado 3 de octubre de 2026 &middot; Linda Ivette Berrio Giraldo</span>
       </span>
       <span class="s-horas">5h + 3h</span>
-    </div><div class="sesion festivo"><span class="s-fecha">sábado 10 de octubre de 2026</span><span class="s-tema">Sin sesión — festivo</span></div><div class="sesion">
+    </div><div class="sesion festivo"><span class="s-fecha">sábado 10 de octubre de 2026</span><span class="s-tema">Sin sesión por lunes festivo</span></div><div class="sesion">
       <span class="s-num">4</span>
       <span class="s-body">
         <span class="s-tema">Modelado y Dinámica de Sistemas parte 2</span>
@@ -151,14 +151,14 @@ footer img{height:44px}
         <span class="s-meta">sábado 24 de octubre de 2026 &middot; Sergio Herazo Areiza</span>
       </span>
       <span class="s-horas">5h + 3h</span>
-    </div><div class="sesion festivo"><span class="s-fecha">sábado 31 de octubre de 2026</span><span class="s-tema">Sin sesión — festivo</span></div><div class="sesion">
+    </div><div class="sesion festivo"><span class="s-fecha">sábado 31 de octubre de 2026</span><span class="s-tema">Sin sesión por lunes festivo</span></div><div class="sesion">
       <span class="s-num">6</span>
       <span class="s-body">
         <span class="s-tema">Cartografía Social y Herramientas Geográficas</span>
         <span class="s-meta">sábado 7 de noviembre de 2026 &middot; Connie Paola López Gómez</span>
       </span>
       <span class="s-horas">5h + 3h</span>
-    </div><div class="sesion festivo"><span class="s-fecha">sábado 14 de noviembre de 2026</span><span class="s-tema">Sin sesión — festivo</span></div><div class="sesion">
+    </div><div class="sesion festivo"><span class="s-fecha">sábado 14 de noviembre de 2026</span><span class="s-tema">Sin sesión por lunes festivo</span></div><div class="sesion">
       <span class="s-num">7</span>
       <span class="s-body">
         <span class="s-tema">Propiedades emergentes: Resiliencia y Vulnerabilidad Parte 1</span>
